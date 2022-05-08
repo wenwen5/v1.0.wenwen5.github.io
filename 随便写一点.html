@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>一些练习</title>
+		<meta charset="UTF-8">
+		<style>
+			#index {
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				width:100%;
+				background-color: pink;
+				z-index: 999;
+			}
+		
+			nav li {
+				display: inline;
+				margin-left: 30px;
+			}
+			
+			#index-button {
+				background-color: rgba(102,230,204,0.5);
+				width: 50px;
+				height: 50px;
+				margin-top: 100px;
+				border-radius: 30%;
+			}
+			
+			#index-button:hover {
+				animation-name: button-bigger;
+				animation-duration: 300ms;
+				animation-fill-mode: forwards;
+			}
+			
+			@keyframes button-bigger {
+				100% {
+					width: 60px;
+					height: 60px;
+					background: linear-gradient(45deg,#CCFFFF,#FFCCCC);
+				}
+			}
+			
+			.bluediv {
+				position:relative;
+				background-color: #CCFFFF;
+				width: 100%;
+				height: 35px;
+			}
+			
+			.whitediv {
+				position:relative;
+				background-color: white;
+				width: 100%;
+				height: 35px;
+			}
+			
+			input:focus {
+					border: solid 20px green;
+					background-color: red;
+				}
+				
+			#size-changable-font {
+				position: relative;
+			}
+				
+			#size-changable-font:hover {
+				animation-name: font-size-bigger-smaller;
+				animation-duration: 2s;
+				animation-iteration-count: 8;
+			}
+			
+			@keyframes font-size-bigger-smaller {
+				0%{
+				font-size: 20px;
+				bottom: 0px;
+				}
+				
+				50% {
+				font-size: 100px;
+				bottom: 100px;
+				}
+				
+				100% {
+				font-size: 20px;
+				bottom: 0px;
+				}
+			}
+			
+			p {
+				display: inline;
+			}
+			
+			.absolute-position-left-right-main {
+				position: absolute;
+				maigin-top:20%
+			}
+			
+			#right-div-content {
+				position: absolute;
+				z-index: 2;
+				padding-left: 85%;
+				top: 20%;
+				line-height:24px;
+				background-color: transparent;
+			}
+			
+			#right-content-background {
+				position: absolute;
+				width: 200px;
+				height: 200px;
+				background-color: #FFFFCC;
+				top: 20%;
+				left: 84%;
+			}
+		</style>
+	</head>
+	<body>
+		<article>
+		<main>
+			<nav id="index">
+				<ul>
+					<li><a href="#">不要</a></li>
+					<li><a href="#">点进</a></li>
+					<li><a href="#">这个</a></li>
+					<li><a href="#">网页</a></li>
+					<li><a href="#">这里</a></li>
+					<li><a href="#">什么</a></li>
+					<li><a href="#">都没</a></li>
+					<li><a href="#">有！</a></li>
+				</ul>
+			</nav>
+			<a href="#footer"><div id="index-button"></div></a>
+			<form>
+				<input type="text" name="blank" id="blank1">
+			</form>
+			<div class="bluediv"><p>往期作品-建议别看|因为太烂|||</p></div>
+			<div class="whitediv"><a href="#">20220506</a></div>
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>
+			
+			
+			<div id="right-div-content">
+			<p>History</p><br/>
+			<p>20220508&#160;21:55</p><br/>
+			
+			
+			</div>
+			<div id="right-content-background"></div>
+		<main>
+		</article>
+	
+	
+		<footer>
+			<a href="#footer"><div class="para" id="footer">
+			<ruby id="size-changable-font">
+			不<rp>(</rp><rt>但</rt><rp>)</rp>
+			要<rp>(</rp><rt>请</rt><rp>)</rp>
+			乱<rp>(</rp><rt>点</rt><rp>)</rp>
+			摸<rp>(</rp><rt>我</rt><rp>)</rp>
+			。
+			Don't&#160;<rp>(</rp><rt>But</rt><rp>)</rp>
+			touch&#160;<rp>(</rp><rt>Touch</rt><rp>)</rp>
+			me<rp>(</rp><rt>Me</rt><rp>)</rp>
+			.
+			</ruby>
+			</div></a>
+		</footer>
+	</body>
+
+</html>
+
