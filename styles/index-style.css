@@ -107,24 +107,23 @@ p {
 	left: 84%;
 }
 
-#announcement {
-	position: absolute;
-	margin-top: 15%;
-}
 
-/*这里还没想好写什么
-.false-fri {
-	
-}
-*/
 
 #morning-Tsu {
+	width: 55%;
+	height: 100px;	
 	position: absolute;
-	margin-top: 20%;
+	top: 50px;
 	font-size: 64px;
-	color：rgba(242,113,129,0.7);
+	color: rgba(242,113,129,0.7);
+	z-index: 3;
+	margin-left: 22.5%;
 }
 
 #morning-Tsu:hover {
 	background-color: rgba(254,233,218,0.3);
+}
+
+.display-inline {
+	display: inline;
 }
