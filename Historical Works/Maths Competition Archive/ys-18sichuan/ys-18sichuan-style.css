@@ -1,0 +1,19 @@
+#content {
+	width: 70%;
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	border-left: solid 2px rgba(74,242,208,0.5);
+	border-right: solid 2px rgba(74,242,208,0.5);	
+}
+
+#text {
+	font-size: 16px;
+	text-align: left;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#image {
+	display: block;	
+}
