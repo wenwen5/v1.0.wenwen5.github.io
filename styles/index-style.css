@@ -106,3 +106,14 @@ p {
 	top: 20%;
 	left: 84%;
 }
+
+#announcement {
+	position: absolute;
+	margin-top: 8%;
+}
+
+/*这里还没想好写什么
+.false-fri {
+	
+}
+*/
