@@ -109,7 +109,7 @@ p {
 
 #announcement {
 	position: absolute;
-	margin-top: 8%;
+	margin-top: 15%;
 }
 
 /*这里还没想好写什么
@@ -120,7 +120,7 @@ p {
 
 #morning-Tsu {
 	position: absolute;
-	margin-top: 10%;
+	margin-top: 20%;
 	font-size: 64px;
 	color：rgba(242,113,129,0.7);
 }
