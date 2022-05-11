@@ -117,3 +117,14 @@ p {
 	
 }
 */
+
+#morning-Tsu {
+	position: absolute;
+	margin-top: 10%;
+	font-size: 64px;
+	color：rgba(242,113,129,0.7);
+}
+
+#morning-Tsu:hover {
+	background-color: rgba(254,233,218,0.3);
+}
