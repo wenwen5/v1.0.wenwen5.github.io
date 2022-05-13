@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -26,42 +25,52 @@
 			</nav>
 			<div id="morning-Tsu"><a href="Historical Works/Tsu-morning.html"><h4 class="display-inline" target=_blank>Good Morning！！！</h4></a></div>
 			<a href="#footer"><div id="index-button"></div></a>
-			<form>
-				<input type="text" name="blank" id="blank1">
-			</form>
 			<!--在html中实现蓝白碗自由（被打-->
-			<div class="bluediv"><p>黑历史</p></div>
-			<div class="whitediv"><a href="Historical Works/20220506.html">20220506</a></div>
-			<div class="bluediv"></div>
-			<div class="whitediv"></div>			
 			<div class="bluediv">我这没啥好看的。想看正经blog的请看<a href="https://boshugege.github.io/" target=_blank>巨佬</a></div>
-			<div class="whitediv"></div>			
-			<div class="bluediv"></div>
-			<div class="whitediv"></div>			
-			<div class="bluediv"></div>
-			<div class="whitediv"></div>			
-			<div class="bluediv"></div>
-			<div class="whitediv"></div>			
-			<div class="bluediv"></div>
-			<div class="whitediv"></div>			
-			<div class="bluediv"></div>
-			<div class="whitediv"></div>			
-			<div class="bluediv"></div>
-			<div class="whitediv"></div>			
-			<div class="bluediv"></div>
-			<div class="whitediv"></div>			
-			<div class="bluediv"></div>
-			<div class="whitediv"></div>			
-			<div class="bluediv"></div>
-			<div class="whitediv"></div>			
-			<div class="bluediv"></div>
 			<div class="whitediv"></div>
+			<div class="bluediv"></div>
+			<div class="whitediv"><input type="text" value="1" name=""/ id="button-money" readonly><p>円</p></div>			
+			<div class="bluediv"><!--网上随便抄来的-->
+					<button id="button-money">点击塞钱</button>
+					<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+					<script>
+						window.onload=function(){//加载完成后执行
+							$('button').click(function(){//对button按钮进行监控，监控点击
+								var val=$('input').val();//获取页面中input的值
+								val++;//input+1
+								$('input').val(val);//讲改变的值重新写入input
+							})
+						}
+					</script>
+			</div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"></div>			
+			<div class="bluediv"></div>
+			<div class="whitediv"><p>黑历史</p><a href="Historical Works/20220506.html">20220506</a></div>
 			
-			
+			<div id="get-money-div"><img id="get-money-img" src="../img/get-money.png" alt="赛钱箱"/></div>
 			<div id="right-div-content">
 			<p>History</p><br/>
 			<p>20220508&#160;21:55</p><br/>
 			<p>20220510&#160;00:41</p><br/>
+	
 			<p>20220511&#160;14:15</p><br/>
 			
 			
@@ -69,7 +78,6 @@
 			<div id="right-content-background"></div>
 		<main>
 		</article>
-	
 	
 		<footer>
 			<a href="https://www.bilibili.com/video/BV1GJ411x7h7?spm_id_from=333.337.search-card.all.click"><div class="para" id="footer" target=_blank>
