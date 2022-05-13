@@ -113,11 +113,6 @@ nav li {
 	height: 35px;
 }
 
-input:focus {
-		border: solid 20px green;
-		background-color: red;
-	}
-	
 #size-changable-font {
 	position: relative;
 }
