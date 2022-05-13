@@ -200,6 +200,42 @@ p {
 	width: 450px;
 	height: 200;
 	z-index: 2;
+	animation-name: get-money-img;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes get-money-img {
+	0% {
+		top: 200px;
+		left: 3px;
+	}
+	16.7% {
+		top: 400px;
+		left: 3px;
+	}
+	33.3% {
+		top: 400px;
+		left: 800px;
+	}
+	50% {
+		top: 200px;
+		left: 800px;
+	}
+	66.8% {
+		top: 400px;
+		left: 800px;
+	}
+	83.3% {
+		top: 400px;
+		left: 3px;
+	}
+	100% {
+		top: 200px;
+		left: 3px;
+	}
+	
+	
 }
 
 #button-money {
