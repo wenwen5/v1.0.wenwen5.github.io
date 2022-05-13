@@ -9,6 +9,7 @@
 	overflow: hidden;
 	border-radius: 50%;
 	transition: all 0.1s linear;
+	opacity: 0.6;
 }
 
 #index:hover {
