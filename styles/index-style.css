@@ -1,10 +1,74 @@
 #index {
 	position: fixed;
-	top: 0px;
-	left: 0px;
-	width:100%;
+	top: 10px;
+	left: 10px;
+	width: 45px;
+	height:45px;
 	background-color: pink;
-	z-index: 999;
+	z-index: 10;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+#index:hover {
+	animation-name: index;
+	animation-duration: 200ms;
+	animation-fill-mode: forwards;
+}
+
+
+@keyframes index {
+	0% {
+		position: fixed;
+		top: 10px;
+		left: 0px;
+		width:20%;
+		height: 50px;
+		background: linear-gradient(90deg, pink, white);
+		z-index: 100;
+		border-radius: 0%;
+	}
+	25% {
+		position: fixed;
+		top: 10px;
+		left: 0px;
+		width:40%;
+		height: 50px;
+		background: linear-gradient(90deg, pink, white);
+		z-index: 100;
+		border-radius: 0%;
+	}	
+	50% {
+		position: fixed;
+		top: 10px;
+		left: 0px;
+		width:60%;
+		height: 50px;
+		background: linear-gradient(90deg, pink, white);
+		z-index: 100;
+		border-radius: 0%;
+	}	
+	75% {
+		position: fixed;
+		top: 10px;
+		left: 0px;
+		width:70%;
+		height: 50px;
+		background: linear-gradient(90deg, pink, white);
+		z-index: 100;
+		border-radius: 0%;
+	}	
+	100% {
+		position: fixed;
+		top: 10px;
+		left: 0px;
+		width:80%;
+		height: 50px;
+		background: linear-gradient(90deg, pink, white);
+		z-index: 100;
+		border-radius: 0%;
+	}
+	
 }
 
 nav li {
@@ -28,6 +92,7 @@ nav li {
 
 @keyframes button-bigger {
 	100% {
+		width: 60px;
 		width: 60px;
 		height: 60px;
 		background: linear-gradient(45deg,#CCFFFF,#FFCCCC);
@@ -126,4 +191,18 @@ p {
 
 .display-inline {
 	display: inline;
+}
+
+#get-money-img {
+	position: absolute;
+	top: 200px;
+	left: 3px;
+	width: 450px;
+	height: 200;
+	z-index: 2;
+}
+
+#button-money {
+	margin-left: 40%;
+	z-index: 4;
 }
