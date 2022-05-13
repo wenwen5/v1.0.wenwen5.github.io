@@ -8,14 +8,15 @@
 	z-index: 10;
 	overflow: hidden;
 	border-radius: 50%;
+	transition: all 0.1s linear;
 }
 
 #index:hover {
+	transform: scale(1.1);
 	animation-name: index;
 	animation-duration: 200ms;
 	animation-fill-mode: forwards;
 }
-
 
 @keyframes index {
 	0% {
@@ -24,6 +25,7 @@
 		left: 0px;
 		width:20%;
 		height: 50px;
+		opacity: 0.1;
 		background: linear-gradient(90deg, pink, white);
 		z-index: 100;
 		border-radius: 0%;
@@ -34,6 +36,7 @@
 		left: 0px;
 		width:40%;
 		height: 50px;
+		opacity: 0.2;
 		background: linear-gradient(90deg, pink, white);
 		z-index: 100;
 		border-radius: 0%;
@@ -44,6 +47,7 @@
 		left: 0px;
 		width:60%;
 		height: 50px;
+		opacity: 0.3;
 		background: linear-gradient(90deg, pink, white);
 		z-index: 100;
 		border-radius: 0%;
@@ -54,6 +58,7 @@
 		left: 0px;
 		width:70%;
 		height: 50px;
+		opacity: 0.5;
 		background: linear-gradient(90deg, pink, white);
 		z-index: 100;
 		border-radius: 0%;
@@ -64,11 +69,11 @@
 		left: 0px;
 		width:80%;
 		height: 50px;
+		opacity: 0.9;
 		background: linear-gradient(90deg, pink, white);
 		z-index: 100;
 		border-radius: 0%;
 	}
-	
 }
 
 nav li {
