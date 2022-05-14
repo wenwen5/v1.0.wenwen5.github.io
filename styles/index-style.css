@@ -15,7 +15,7 @@
 #index:hover {
 	transform: scale(1.1);
 	animation-name: index;
-	animation-duration: 200ms;
+	animation-duration: 1s;
 	animation-fill-mode: forwards;
 }
 
@@ -31,7 +31,7 @@
 		z-index: 100;
 		border-radius: 0%;
 	}
-	25% {
+	5% {
 		position: fixed;
 		top: 10px;
 		left: 0px;
@@ -42,7 +42,7 @@
 		z-index: 100;
 		border-radius: 0%;
 	}	
-	50% {
+	10% {
 		position: fixed;
 		top: 10px;
 		left: 0px;
@@ -53,7 +53,7 @@
 		z-index: 100;
 		border-radius: 0%;
 	}	
-	75% {
+	15% {
 		position: fixed;
 		top: 10px;
 		left: 0px;
@@ -64,6 +64,17 @@
 		z-index: 100;
 		border-radius: 0%;
 	}	
+	20% {
+		position: fixed;
+		top: 10px;
+		left: 0px;
+		width:80%;
+		height: 50px;
+		opacity: 0.9;
+		background: linear-gradient(90deg, pink, white);
+		z-index: 100;
+		border-radius: 0%;
+	}
 	100% {
 		position: fixed;
 		top: 10px;
