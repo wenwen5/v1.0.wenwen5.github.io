@@ -1,86 +1,75 @@
 #index {
 	position: fixed;
-	top: 10px;
-	left: 10px;
-	width: 45px;
-	height:45px;
+	top: 0.78vw;
+	left: 0.78vw;
+	width: 3.52vw;
+	height:3.52vw;
 	background-color: pink;
 	z-index: 10;
 	overflow: hidden;
 	border-radius: 50%;
 	transition: all 0.1s linear;
-	opacity: 0.6;
+	font-size: 1.25vw; 
 }
 
 #index:hover {
 	transform: scale(1.1);
 	animation-name: index;
-	animation-duration: 1s;
+	animation-duration: 200ms;
 	animation-fill-mode: forwards;
 }
 
 @keyframes index {
 	0% {
 		position: fixed;
-		top: 10px;
+		top: 0.78vw;
 		left: 0px;
 		width:20%;
-		height: 50px;
+		height: 3.91vw;
 		opacity: 0.1;
 		background: linear-gradient(90deg, pink, white);
 		z-index: 100;
 		border-radius: 0%;
 	}
-	5% {
+	25% {
 		position: fixed;
-		top: 10px;
+		top: 0.78vw;
 		left: 0px;
 		width:40%;
-		height: 50px;
+		height: 3.91vw;
 		opacity: 0.2;
 		background: linear-gradient(90deg, pink, white);
 		z-index: 100;
 		border-radius: 0%;
 	}	
-	10% {
+	50% {
 		position: fixed;
-		top: 10px;
+		top: 0.78vw;
 		left: 0px;
 		width:60%;
-		height: 50px;
+		height: 3.91vw;
 		opacity: 0.3;
 		background: linear-gradient(90deg, pink, white);
 		z-index: 100;
 		border-radius: 0%;
 	}	
-	15% {
+	75% {
 		position: fixed;
-		top: 10px;
+		top: 0.78vw;
 		left: 0px;
 		width:70%;
-		height: 50px;
+		height: 3.91vw;
 		opacity: 0.5;
 		background: linear-gradient(90deg, pink, white);
 		z-index: 100;
 		border-radius: 0%;
 	}	
-	20% {
-		position: fixed;
-		top: 10px;
-		left: 0px;
-		width:80%;
-		height: 50px;
-		opacity: 0.9;
-		background: linear-gradient(90deg, pink, white);
-		z-index: 100;
-		border-radius: 0%;
-	}
 	100% {
 		position: fixed;
-		top: 10px;
+		top: 0.78vw;
 		left: 0px;
 		width:80%;
-		height: 50px;
+		height: 3.91vw;
 		opacity: 0.9;
 		background: linear-gradient(90deg, pink, white);
 		z-index: 100;
@@ -90,7 +79,7 @@
 
 nav li {
 	display: inline;
-	margin-left: 30px;
+	margin-left: 2.34vw;
 }
 
 #index-button {
