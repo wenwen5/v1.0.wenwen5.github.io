@@ -1,0 +1,125 @@
+#index {
+	position: fixed;
+	top: 0.78vw;
+	left: 0.78vw;
+	width: 3.52vw;
+	height:3.52vw;
+	background-color: pink;
+	z-index: 10;
+	overflow: hidden;
+	border-radius: 50%;
+	transition: all 0.1s linear;
+	font-size: 1.25vw; 
+}
+
+#index:hover {
+	transform: scale(1.1);
+	animation-name: index;
+	animation-duration: 200ms;
+	animation-fill-mode: forwards;
+}
+
+@keyframes index {
+	0% {
+		position: fixed;
+		top: 0.78vw;
+		left: 0px;
+		width:20%;
+		height: 3.91vw;
+		opacity: 0.1;
+		background: linear-gradient(90deg, pink, white);
+		z-index: 100;
+		border-radius: 0%;
+	}
+	25% {
+		position: fixed;
+		top: 0.78vw;
+		left: 0px;
+		width:40%;
+		height: 3.91vw;
+		opacity: 0.2;
+		background: linear-gradient(90deg, pink, white);
+		z-index: 100;
+		border-radius: 0%;
+	}	
+	50% {
+		position: fixed;
+		top: 0.78vw;
+		left: 0px;
+		width:60%;
+		height: 3.91vw;
+		opacity: 0.3;
+		background: linear-gradient(90deg, pink, white);
+		z-index: 100;
+		border-radius: 0%;
+	}	
+	75% {
+		position: fixed;
+		top: 0.78vw;
+		left: 0px;
+		width:70%;
+		height: 3.91vw;
+		opacity: 0.5;
+		background: linear-gradient(90deg, pink, white);
+		z-index: 100;
+		border-radius: 0%;
+	}	
+	100% {
+		position: fixed;
+		top: 0.78vw;
+		left: 0px;
+		width:80%;
+		height: 3.91vw;
+		opacity: 0.9;
+		background: linear-gradient(90deg, pink, white);
+		z-index: 100;
+		border-radius: 0%;
+	}
+}
+
+nav li {
+	display: inline;
+	margin-left: 2.34vw;
+}
+
+/*
+注：此css思路来源于https://6c65-lemonpig-144d41-1257278747.tcb.qcloud.la/wordpress/wp-content/themes/H-Siren/style.css
+以下的一部分本人依据其成品效果略微模仿而得
+*/
+
+#border {
+	width: 62vw;
+	margin-left: 18.75%;
+	margin-right: 18.75%;
+	padding-left: 0%;
+	padding-right: 0%;
+	border: solid 0.04vw lightgrey;
+	background-color: rgba(197,197,197,0.25);
+	filter: blur(0.16vm);
+	z-index: 10;
+}
+
+#top {
+	position: relative;
+	width: 98%;
+	height: 35vw;
+	margin: 0.75% 1% 0.75% 1%;
+	z-index: 20;
+	background-color: white;
+	border-radius: 1.02vw;
+}
+
+.float-content {
+	position: absolute;
+	background-color: rgba(0,0,0,0.7);
+	width: 98%;
+	height: 13.2vw;
+	margin: 35% 1% 1% 1%;
+	z-index: 30;
+	border-radius: 1.02vw;
+}
+
+.float-font {
+	color: white;
+	font-size: 1.25vw;
+}
